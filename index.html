@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -16,23 +19,37 @@
             <div id="notif">
                 <img src="assets/bell-ring-outline.svg" alt="bell" width="25px" height="25px">
                 <img src="assets/cat.svg" alt="cat" width="40px" height="40px">
-                Morgan Oakley
+                <span>Morgan Oakley</span>
+            </div>
+            <div id="user">
+                <img src="assets/cat.svg" alt="cat" width="60px" height="60px">
+                <div>
+                    Hi there,<br>
+                    <span>Morgan Oakley (@morgan)</span>
+                </div>
+            </div>
+            <div id="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
 
         <div id="sidebar">
-            <h2>Dashboard</h2>
+            <div>
+                <img src="assets/dashboard.svg" alt="board" width="50px" height="50px"><h2>Dashboard</h2>
+            </div>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><img src="assets/home.svg" alt="home">Home</li>
+                <li><img src="assets/card.svg" alt="card">Profile</li>
+                <li><img src="assets/message.svg" alt="message">Messages</li>
+                <li><img src="assets/clock.svg" alt="clock">History</li>
+                <li><img src="assets/files.svg" alt="files">Tasks</li>
+                <li><img src="assets/group.svg" alt="group">Communities</li>
                 <br>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><img src="assets/cog.svg" alt="cog">Settings</li>
+                <li><img src="assets/help-box.svg" alt="help-box">Support</li>
+                <li><img src="assets/shield.svg" alt="shield">Privacy</li>
             </ul>
         </div>
         <div id="main"></div>
