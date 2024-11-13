@@ -248,19 +248,19 @@ li {
     color: gray;
 }
 
-.item img[alt='elephant'] {
+#elephant {
     background-color: rgb(202, 226, 234);
 }
 
-.item img[alt='cat'] {
+#cat {
     background-color: rgb(255, 170, 0);
 }
 
-.item img[alt='rabbit'] {
+#rabbit {
     background-color: rgb(200, 196, 196);
 }
 
-.item img[alt='dog2'] {
+#dog2 {
     background-color: rgb(219, 159, 179);
 }
 
